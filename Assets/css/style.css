@@ -1,0 +1,112 @@
+body{
+    background: url("https://i.ytimg.com/vi/AozcYNADYL4/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+img{
+    width:200px;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: aqua;
+    background-color: blue;
+    color: white;
+}
+
+#primaryCrystal{
+    background-color:lightseagreen;
+    float: right;
+    border-style: double;
+    border-color: green;
+    border-width: 10px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+#mainCrystal{
+    margin: 40px;
+}
+
+#bigNumber{
+    text-align: center;
+    font-size: 25px;
+    color: purple;
+}
+
+#winloss{
+    margin: 0;
+    color: lightcyan;
+    background-color: slateblue;
+    border-radius: 40px;
+}
+
+p{
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%
+}
+
+#wins{
+    font-size: 40px;
+    float: left;
+    color: green;
+    margin-left: 40%;
+    margin-top: 0px;
+    background-color: lightgreen;
+    border-radius: 15px;
+}
+
+#losses{
+    font-size: 40px;
+    float: right;
+    color: red;
+    margin-right: 40%;
+    margin-top: 0px;
+    background-color: lightcoral;
+    border-radius: 15px;
+}
+
+#lowerCrystals{
+    margin-left: 10%;
+}
+
+.cButton{
+    background-color: purple;
+    height: 200px;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+
+#totalNum{
+    color: yellow;
+    font-size: 35px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(189, 103, 189);
+    border-radius: 70px;
+    line-height: -70px;
+    
+}
+
+#red:hover{
+    background-color: pink;
+}
+
+#blue:hover{
+    background-color: lightblue;
+}
+
+#green:hover{
+    background-color: lightgreen;
+}
+
+#yellow:hover{
+    background-color: lightgoldenrodyellow;
+}

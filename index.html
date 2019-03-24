@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css" />
+  </head>
+  <body>
+    <h1>Orion's Crystal Collector Game!</h1>
+    <div id="winloss">
+    <p>
+      Below is a randomly generated number, and beside it, 4 more random
+      numbers. You must use the bottom crystals to create the same value as the
+      first crystal!
+    </p>
+
+    <h2 id="wins"></h2>
+    <h2 id="losses"></h2>
+    </div>
+    <div id="primaryCrystal">
+      <img type="image/png" src="Assets/images/mainCrystal.png" id="mainCrystal" />
+      <h2 id="bigNumber"></h2>
+    </div>
+    <div id="lowerCrystals">
+      <h2 id="totalNum">Your Number: </h2>
+      <img
+        class="cButton"
+        id="red"
+        type="image/png"
+        src="Assets/images/redCrystal.png"
+      />
+      <img
+        class="cButton"
+        id="blue"
+        type="image/png"
+        src="Assets/images/blueCrystal.png"
+      />
+      <img
+        class="cButton"
+        id="green"
+        type="image/png"
+        src="Assets/images/greenCrystal.png"
+      />
+      <img
+        class="cButton"
+        id="yellow"
+        type="image/png"
+        src="Assets/images/yellowCrystal.png"
+      />
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="Assets/javascript/game.js"></script>
+</html>
